@@ -1,0 +1,80 @@
+employee,emails_analyzed,llm_output
+sara.shackleton@enron.com,5,"Classification: Manager / High Confidence
+Evidence:
+1. In Email 2, Sara Shackleton is part of a CC list with several colleagues and superiors, suggesting her involvement in important discussions.
+2. In Email 5, Sara Shackleton sends an email on behalf of Susan Bailey to multiple recipients, indicating that she may be responsible for tasks or assignments.
+
+Reasoning: 
+Although Sara's role as coordinator or assistant is not explicitly stated, the presence of colleagues and superiors in CC lists suggests a high level of organizational involvement. The task-oriented emails and responsibility assumed by Sara further point towards her managerial capabilities."
+jeff.dasovich@enron.com,5,"Classification: Non-manager / Unclear
+Confidence: Low
+Evidence: None of the emails show direct coordination or decision-making, nor do they indicate approval or assignment of tasks to others.
+
+Reasoning: While Phillip Allen appears to be sending large numbers of emails to various recipients, none of these emails provide clear evidence that he is coordinating people, making decisions, approving work, assigning tasks, supervising others, representing leadership, or directing organizational activity. The content of the emails seems more focused on sharing information and responding to requests rather than taking a leading role in organizational activities. Therefore, it is difficult to determine whether this user is a manager or not based solely on these email samples."
+tana.jones@enron.com,5,"Classification: Manager / High
+Confidence: High
+Evidence:
+1. In EMAIL 2, Tana Jones is out of the office and has an auto-reply message, indicating a level of organizational responsibility. 
+2. In EMAIL 3, Tana Jones mentions delivering a binder of mutual terminations to Susan Bailey, suggesting coordination and delegation.
+3. In EMAIL 5, Tana Jones sends an email to multiple recipients regarding Global Contracts Contact, further demonstrating her role in coordinating and directing organizational activity.
+
+Reasoning: Based on the evidence from these emails, it appears that Tana Jones is involved in coordinating people, making decisions, approving work, assigning tasks, supervising others, representing leadership, or directly organizing activity. The language used and the nature of the messages suggest a level of authority and responsibility typically associated with managers."
+sally.beck@enron.com,5,"Classification: Manager
+Confidence: High
+Evidence:
+1. Phillip mentions meeting with Sally to ""assess the issue"" in multiple emails (EMAIL 2, EMAIL 4, and EMAIL 5), indicating a leadership role.
+2. The frequency of Phillip's emails to Sally, addressing her directly and making decisions on her behalf, suggests a managerial responsibility.
+
+Reasoning: Based on the emails, it is clear that Phillip Allen is taking initiative and making decisions for Susan Beck, which are characteristic of a manager's role. The repeated mention of meetings to ""assess the issue"" further supports this conclusion."
+gerald.nemec@enron.com,5,"Classification: Non-manager / Unclear
+Confidence: Low
+
+Evidence:
+- Email samples do not clearly indicate coordination of people or direction of organizational activity.
+- Emails mainly involve discussing interview schedules and interview packets, which may be a task assigned to someone in the organization.
+
+Reasoning:
+The evidence from the email samples is limited and does not strongly suggest that Gerald Nemec holds a managerial role. The emails mostly discuss interview schedules and packets, which could be part of his job responsibilities but do not provide clear signs of coordinating people or making organizational decisions. Therefore, the classification is Non-manager / Unclear with low confidence."
+kenneth.lay@enron.com,5,"Classification: Manager / High
+Confidence: High
+Evidence:
+
+1. EMAIL 2 and EMAIL 3 show Kenneth Lay CC'ing a large group of people in his emails, indicating that he is coordinating with others and making decisions on behalf of Enron.
+2. The emails from Leonardo Pacheco (emails 4 and 5) to Kenneth Lay also suggest that Lay is involved in high-level decision-making and coordination.
+
+Reasoning: Based on the email samples, it appears that Kenneth Lay is coordinating people, making decisions, and approving work. He is also representing leadership by communicating with high-ranking individuals within Enron. The frequency and scope of his CC'ing and emailing suggest a managerial role."
+louise.kitchen@enron.com,5,"Classification: Non-manager / Unclear
+Confidence: Low
+Evidence:
+1. Emails 4 and 5 are addressed to multiple recipients with titles such as ""Wes Colwell"", ""Rob Milnthorp"", etc., which suggests a non-managerial role.
+2. Email 4 has a CC field with several recipients having managerial titles, indicating that the sender is not in a position of authority.
+
+Reasoning:
+Given the low frequency and content of the emails, it's challenging to determine if Louise Kitchen holds a manager-level position. The presence of managerial titles in the CC fields may suggest a non-managerial role, but this could also be due to her being an assistant or coordinating with managers. More information would be required to make a definitive classification."
+jeff.skilling@enron.com,5,"Classification: Manager
+Confidence: Medium
+Evidence:
+
+* Emails 2 and 5 show Sally Beck sending emails to Jeff Skilling with CC'd recipients, indicating she is coordinating with others.
+* Email 3 shows Sally Beck inviting Jeff Skilling to speak at a Global Operations Controller Forum, suggesting a managerial role in organizing events.
+* Email 4 is an informal message between Sally Beck and Jeff Skilling, but still maintains a level of professionalism.
+
+Reasoning: While the emails do not explicitly state that Jeff Skilling is making decisions or supervising others, they suggest he is part of a larger organizational structure and is being involved in managerial activities such as coordinating with colleagues and participating in events. However, without more explicit language about decision-making or supervision, it's difficult to say with certainty whether Jeff Skilling holds a managerial role."
+vince.kaminski@enron.com,5,"Classification: Manager / High
+Confidence: High
+Evidence:
+
+* Vince Kaminski is CC'd in multiple emails that involve planning meetings with John Arnold, Fletcher J Sturm, and other Enron employees (EMAILs 3, 5).
+* He is also included on email threads that discuss the Tiger Team project and its agenda (EMAIL 3).
+* The emails suggest that Vince Kaminski is involved in coordinating people and tasks, such as inviting others to meetings and cc'ing them on important discussions.
+
+Reasoning:
+Based on these evidence points, it appears that Vince Kaminski holds a managerial role at Enron. He is actively involved in planning and coordinating with other employees, which suggests a level of leadership and authority. The fact that he is CC'd in multiple emails also indicates that his role is not just informational but rather decision-making. While there may be some ambiguity in the email samples, the cumulative evidence suggests that Vince Kaminski is likely a manager at Enron."
+chris.germany@enron.com,5,"Classification: Manager / High
+Confidence: High
+Evidence:
+- Regularly sends emails to multiple recipients, including both managers and non-managers (EMAIL 2).
+- Recipients include individuals with titles such as ""Director"" or ""Manager"" (EMAIL 3), indicating that the sender is likely a manager.
+- The content of emails often involves discussion of projects, meetings, and approvals, which are typical managerial responsibilities.
+
+Reasoning: Based on the analysis of email samples, it appears that Chris Germany is likely a manager due to the content and structure of his emails. His frequent use of multiple recipients, including individuals with management-level titles, suggests that he plays a coordinating role in organizational activities. Additionally, the discussion of projects, meetings, and approvals in his emails indicates managerial responsibilities. While this analysis is based on limited email samples, the evidence points to Chris Germany being a manager."
